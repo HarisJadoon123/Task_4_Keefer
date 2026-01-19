@@ -163,14 +163,69 @@ textarea::placeholder{
 }
 .container{
     display: flex;
-    margin:50px;
-    gap:180px;
+    margin-top:50px;
+    margin-left:50px;
+    margin-right:50px;
+    justify-content: space-around;
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black;     */
+    font-size: 20px;
+}
+.c1a{
+    display: flex;
+    width:340px;
+}
+.line{
+    margin-top: 40px;
+    margin-left: 130px;
+    height:1px;
+  filter: grayscale(100%) brightness(1.4);
 }
 
+.btn1{
+    display:flex;
+    width:140px;
+    border: none; 
+    color: white;
+    padding: 5px 16px;
+    height: 40px;
+    background-color: rgb(179, 8, 8); 
+    font-size: 18px;
+    align-items: center;
+    gap:10px;
+    margin-left: 190px;
+    
+}
 .c2{
     display: flex;
     flex-direction: column;
+    /* border: 2px solid rgba(16, 15, 15, 0.795); */
 }
+.c2a{
+    display: flex;
+}
+.c2b{
+    display:flex;
+}
+.hr{
+    display: flex;
+}
+.last{
+    display:flex;
+}
+.l1{
+    flex:1;
+}
+.l2{
+    flex:2;
+}
+.l3{
+    flex:1;
+}
+
 
 
 
