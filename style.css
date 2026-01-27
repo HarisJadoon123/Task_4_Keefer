@@ -363,7 +363,7 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 
 .lm2 h1 {
@@ -373,6 +373,9 @@ i {
 
 .l2 {
     flex: 2;
+}
+.med{
+    display: flex;
 }
 
 .l3 {
@@ -469,6 +472,9 @@ footer img {
     .section1 .box2 {
         width: 100%;
     }
+.l32{
+    width:100%;
+}
 }
 
 @media (max-width: 992px)                 /*Medium Screen*/
@@ -502,21 +508,21 @@ footer img {
         flex-direction: column;
     }
     .b1{
-            font-size: 25px;
+            font-size: 23px;
     }
     .b2{
-        width:38%;
-        font-size: 25px;
+         width: 36%;
+        font-size: 24px;
     }
     .p4 {
-    font-size: 34px;
-    margin-bottom: 15px;
-    width: 100%;
+        font-size: 26px;
+        margin-bottom: 10px;
+        width: 90%;
     }
     .x {
      display: flex;
      width:100%;
-     justify-content: space-around;
+     
     }
 .x1{
     width:50%;
@@ -526,30 +532,49 @@ footer img {
     height:3vw;
 }
 .x2{
-    width:25%;
-    margin-top: 20px;
+    width:27%;
+    margin-top: 30px;
 }
 .confidential{
     width:100%;
 }
 i{
-    font-size: 30px;
+    font-size: 20px;
+}
+textarea{
+        padding: 20px 0;
+        width:89%;
+}
+.box2l{
+    justify-content: space-around;
 }
 .box2l .btn {
-    border: none;
     color: white;
-    margin-top: 5px;
-    padding: 14px 23px;
-    height: 70px;
+    height: 50px;
+    width:40%;
     background-color: rgb(179, 8, 8);
-    font-size: 31px;
+    font-size: 25px;
     display: flex;
-    align-items: center;
+    justify-content: space-between;
+   
 }
-    .container{
-        display: flex;
-        flex-direction: column;
-    }
+.container {
+  display: flex;
+  flex-wrap: wrap; /* taake neeche wale element automatically neeche shift ho jaye */ 
+    width: 100%;
+}
+.c1{
+  flex: 1 ; /* apni width jitni chahiye le sakte hain */
+}
+.c2{
+  flex: 1 ; /* apni width jitni chahiye le sakte hain */
+}
+.c3 {
+  flex:0.2;
+  align-items: center;
+  margin-top: 20px; 
+  margin-left: 30%;   
+}
     .section2 {
         display: flex;
         flex-direction: column;
@@ -572,10 +597,9 @@ i{
 }
 .l2{
       width: 89%;
-    margin: auto;
 }
 .l32{
-    width:25%;
+    width:22%;
 }
 }
 
@@ -589,18 +613,18 @@ i{
 
     .sub2 .p1 {
         font-family: Arial black;
-        font-size: 10px;
+        font-size: 18px;
         color: rgb(179, 8, 8);
     }
 
     .sub2 .p2 {
         font-family: Arial black;
-        font-size: 18px;
+        font-size: 35px;
     }
 
     .sub2 .p3 {
         font-family: Calibri;
-        font-size: 10px;
+        font-size: 18px;
         font-weight: bold;
     }
 
@@ -612,22 +636,134 @@ i{
         display: block;
     }
     .sub2 img {
-        width: 51%;
+        width: 70%;
     }
     .section1 {
         display: flex;
         flex-direction: column;
 
     }
+
+
+        .b1{
+            font-size: 16px;
+    }
+    .b2{
+         width: 48%;
+        font-size: 19px;
+    }
+    .p4 {
+        font-size: 18px;
+        margin-bottom: 10px;
+        width: 90%;
+    }
+    .x {
+     display: flex;
+     width:100%;
+     
+    }
+.x1{
+    width:50%;
+}
+.t{
+    width:35vw;
+    height:3vw;
+}
+.x2{
+    width:27%;
+    margin-top: 30px;
+}
+.confidential{
+    width:100%;
+}
+i{
+    font-size: 15px;
+}
+textarea{
+        padding: 20px 0;
+        width:89%;
+}
+.box2l{
+    justify-content: space-around;
+}
+.box2l .btn {
+    color: white;
+    height: 46px;
+    width:40%;
+    background-color: rgb(179, 8, 8);
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.container {
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+}
+.med{
+    flex-direction: column;
+    align-items: center;
+}
+
+.c1{
+  flex: 1 ; /* apni width jitni chahiye le sakte hain */
+}
+.c1 .button {
+        display: flex;
+        align-self: flex-start;
+        width: 30%;
+        padding:0;
+}
+.c1 .btn1{
+    width:100%;
+}
+.c2{
+  flex: 1 ; /* apni width jitni chahiye le sakte hain */
+}
+.c3 {
+  flex:0.2;
+  
+  margin-top: 20px; 
+  margin-left: 0%;   
+}
+.c3 .button {
+        display: flex;
+        align-self: center;
+        width: 30%;
+        padding:0;
+}
+.c3 .btn1{
+    width:100%;
+}
     .section2 {
         display: flex;
         flex-direction: column;
     }
-
     .section3 {
         display: flex;
         flex-direction: column;
     }
+.cards{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.icon{
+        flex-direction: column;
+}
+.l1{
+    align-items: center;
+}
+.l2{
+      width: 89%;
+}
+.l32{
+    width:50%;
+}
 }
 
 
